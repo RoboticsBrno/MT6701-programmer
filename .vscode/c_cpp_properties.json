@@ -1,0 +1,58 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/tmp/pio/include",
+                "/tmp/pio/src",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/xmrazek7/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/tmp/pio/include",
+                    "/tmp/pio/src",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/xmrazek7/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/xmrazek7/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/xmrazek7/.platformio/packages/toolchain-atmelavr@1.50400.190710/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
