@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+const unsigned int RESOLUTION = 800;
+
 uint8_t readRegister(uint8_t address) {
     Wire.beginTransmission(6);
     Wire.write(address);
@@ -54,8 +56,8 @@ void setup() {
     Serial.print("ABZ reg2: ");
     Serial.println(readRegister(0x31), HEX);
 
-    if (readAbzRes() != 800) {
-        programAbzRes(800);
+    if (readAbzRes() != RESOLUTION) {
+        programAbzRes(RESOLUTION);
         Serial.println("Finished, power cycle");
         while (true);
     }
